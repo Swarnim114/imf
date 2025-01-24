@@ -2,10 +2,26 @@
   "name": "imf",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "eslint": "^9.18.0",
+    "express": "^4.21.2",
+    "husky": "^9.1.7",
+    "pg": "^8.13.1",
+    "pg-hstore": "^2.3.4",
+    "prettier": "^3.4.2",
+    "sequelize": "^6.37.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
