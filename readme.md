@@ -11,6 +11,9 @@
 ### 🌐 Base Operational URL
 `https://imf-production.up.railway.app`
 
+### PostMan Docs Url 
+`https://documenter.getpostman.com/view/34205877/2sAYQfE9vG`
+
 ---
 
 ## 📡 ENDPOINT PROTOCOLS
